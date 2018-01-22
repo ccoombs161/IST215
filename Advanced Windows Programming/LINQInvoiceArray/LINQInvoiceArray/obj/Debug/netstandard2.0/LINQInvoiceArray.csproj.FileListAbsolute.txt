@@ -1,0 +1,9 @@
+C:\Users\camer\Desktop\Advanced Windows Programming\LINQInvoiceArray\LINQInvoiceArray\bin\Debug\netstandard2.0\LINQInvoiceArray.deps.json
+C:\Users\camer\Desktop\Advanced Windows Programming\LINQInvoiceArray\LINQInvoiceArray\bin\Debug\netstandard2.0\LINQInvoiceArray.dll
+C:\Users\camer\Desktop\Advanced Windows Programming\LINQInvoiceArray\LINQInvoiceArray\bin\Debug\netstandard2.0\LINQInvoiceArray.pdb
+C:\Users\camer\Desktop\Advanced Windows Programming\LINQInvoiceArray\LINQInvoiceArray\obj\Debug\netstandard2.0\LINQInvoiceArray.csprojResolveAssemblyReference.cache
+C:\Users\camer\Desktop\Advanced Windows Programming\LINQInvoiceArray\LINQInvoiceArray\obj\Debug\netstandard2.0\LINQInvoiceArray.csproj.CoreCompileInputs.cache
+C:\Users\camer\Desktop\Advanced Windows Programming\LINQInvoiceArray\LINQInvoiceArray\obj\Debug\netstandard2.0\LINQInvoiceArray.AssemblyInfoInputs.cache
+C:\Users\camer\Desktop\Advanced Windows Programming\LINQInvoiceArray\LINQInvoiceArray\obj\Debug\netstandard2.0\LINQInvoiceArray.AssemblyInfo.cs
+C:\Users\camer\Desktop\Advanced Windows Programming\LINQInvoiceArray\LINQInvoiceArray\obj\Debug\netstandard2.0\LINQInvoiceArray.dll
+C:\Users\camer\Desktop\Advanced Windows Programming\LINQInvoiceArray\LINQInvoiceArray\obj\Debug\netstandard2.0\LINQInvoiceArray.pdb
