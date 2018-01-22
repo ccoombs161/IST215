@@ -1,0 +1,9 @@
+C:\Users\camer\Documents\GitHub\IST215\Advanced Windows Programming\LINQDistinctWords\LINQDistinctWords\bin\Debug\netstandard2.0\LINQDistinctWords.deps.json
+C:\Users\camer\Documents\GitHub\IST215\Advanced Windows Programming\LINQDistinctWords\LINQDistinctWords\bin\Debug\netstandard2.0\LINQDistinctWords.dll
+C:\Users\camer\Documents\GitHub\IST215\Advanced Windows Programming\LINQDistinctWords\LINQDistinctWords\bin\Debug\netstandard2.0\LINQDistinctWords.pdb
+C:\Users\camer\Documents\GitHub\IST215\Advanced Windows Programming\LINQDistinctWords\LINQDistinctWords\obj\Debug\netstandard2.0\LINQDistinctWords.csprojResolveAssemblyReference.cache
+C:\Users\camer\Documents\GitHub\IST215\Advanced Windows Programming\LINQDistinctWords\LINQDistinctWords\obj\Debug\netstandard2.0\LINQDistinctWords.csproj.CoreCompileInputs.cache
+C:\Users\camer\Documents\GitHub\IST215\Advanced Windows Programming\LINQDistinctWords\LINQDistinctWords\obj\Debug\netstandard2.0\LINQDistinctWords.AssemblyInfoInputs.cache
+C:\Users\camer\Documents\GitHub\IST215\Advanced Windows Programming\LINQDistinctWords\LINQDistinctWords\obj\Debug\netstandard2.0\LINQDistinctWords.AssemblyInfo.cs
+C:\Users\camer\Documents\GitHub\IST215\Advanced Windows Programming\LINQDistinctWords\LINQDistinctWords\obj\Debug\netstandard2.0\LINQDistinctWords.dll
+C:\Users\camer\Documents\GitHub\IST215\Advanced Windows Programming\LINQDistinctWords\LINQDistinctWords\obj\Debug\netstandard2.0\LINQDistinctWords.pdb
