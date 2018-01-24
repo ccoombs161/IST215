@@ -28,7 +28,7 @@ namespace LINQDistinctWords
 
             // display only the distinct words
             foreach (var word in sortedWords.Distinct())
-                Console.Write("{0}", word);
+                Console.Write("{0} ", word);
             Console.WriteLine();
         } // end Main
     } // end class LINQDistinctWords
