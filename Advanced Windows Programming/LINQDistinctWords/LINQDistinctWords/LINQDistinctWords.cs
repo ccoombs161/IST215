@@ -1,11 +1,14 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
 namespace LINQDistinctWords
 {
     public class LINQDistinctWords
     {
-        public static void Main( string[] args )
+        public static void Main(string[] args)
         {
             // Prompt the user for input
             Console.WriteLine("Please enter a sentence:");
@@ -21,7 +24,7 @@ namespace LINQDistinctWords
 
             Console.WriteLine("\nYou entered:");
             Console.WriteLine(sentence);
-            Console.Write("\nDistinct words:");
+            Console.Write("\nDistinct words: ");
 
             // display only the distinct words
             foreach (var word in sortedWords.Distinct())
@@ -29,4 +32,4 @@ namespace LINQDistinctWords
             Console.WriteLine();
         } // end Main
     } // end class LINQDistinctWords
-} // end namespace
+}
