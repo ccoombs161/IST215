@@ -1,6 +1,8 @@
 ﻿using System;
-using System.Linq;
 using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
 namespace LINQInvoiceArray
 {
@@ -50,11 +52,11 @@ namespace LINQInvoiceArray
 
             // display description and quantity, sorted by quantity
             Console.WriteLine(
-                "\n\nc) Description and quantity, sorted by quantity:\n" );
+                "\n\nc) Description and quantity, sorted by quantity:\n");
             Console.WriteLine("{0,-25} {1, -5}", "Description", "Quantity");
             foreach (var item in descriptionAndQuantity)
                 Console.WriteLine("{0,-25} {1, 5}", item.PartDescription,
-                    item.Quantity );
+                    item.Quantity);
 
             // d) use LINQ to select description and calculated 
             // invoice total; sort by invoice total
@@ -66,7 +68,7 @@ namespace LINQInvoiceArray
 
             // display description and calcualted invoice total 
             Console.WriteLine(
-                "\n\nd) Description and invoice total, sort by invoice total:\n" );
+                "\n\nd) Description and invoice total, sort by invoice total:\n");
             foreach (var item in descriptionAndTotal)
                 Console.WriteLine(item);
 
@@ -85,4 +87,4 @@ namespace LINQInvoiceArray
             Console.WriteLine();
         } // end Main
     } // end class LINQInvoiceArray
-}
+} // end namespace

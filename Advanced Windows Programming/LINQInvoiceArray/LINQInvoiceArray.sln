@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.27130.2024
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LINQInvoiceArray", "LINQInvoiceArray\LINQInvoiceArray.csproj", "{7CB84B61-04C4-464F-8210-4DC4F084C616}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LINQInvoiceArray", "LINQInvoiceArray\LINQInvoiceArray.csproj", "{B69164AD-05CF-4EC2-85CA-C998320A4028}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,12 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{7CB84B61-04C4-464F-8210-4DC4F084C616}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{7CB84B61-04C4-464F-8210-4DC4F084C616}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{7CB84B61-04C4-464F-8210-4DC4F084C616}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{7CB84B61-04C4-464F-8210-4DC4F084C616}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B69164AD-05CF-4EC2-85CA-C998320A4028}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B69164AD-05CF-4EC2-85CA-C998320A4028}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B69164AD-05CF-4EC2-85CA-C998320A4028}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B69164AD-05CF-4EC2-85CA-C998320A4028}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {268F79F7-CAB4-46AB-B8A7-A994AD0FEB90}
 	EndGlobalSection
 EndGlobal
