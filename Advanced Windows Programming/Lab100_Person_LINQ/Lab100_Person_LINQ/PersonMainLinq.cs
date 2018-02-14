@@ -11,7 +11,7 @@ namespace Lab100_Person_LINQ
         static void Main(string[] args)
         {
             DataList arr;
-            string datafile = @"..\..\Person2000Address.csv";
+            string datafile = @"Z:\IT\IST215\Yusuf\Lab Assignments\Person2000Address.csv";
 
             arr = new DataList(datafile);
             arr.LoadData();
