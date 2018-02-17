@@ -38,10 +38,10 @@
 			this.label4 = new System.Windows.Forms.Label();
 			this.groupBox1 = new System.Windows.Forms.GroupBox();
 			this.groupBox2 = new System.Windows.Forms.GroupBox();
-			this.comboBox1 = new System.Windows.Forms.ComboBox();
-			this.label5 = new System.Windows.Forms.Label();
-			this.textBox1 = new System.Windows.Forms.TextBox();
 			this.label6 = new System.Windows.Forms.Label();
+			this.textBox1 = new System.Windows.Forms.TextBox();
+			this.label5 = new System.Windows.Forms.Label();
+			this.comboBox1 = new System.Windows.Forms.ComboBox();
 			this.lblSubTotal = new System.Windows.Forms.Label();
 			this.lblTax = new System.Windows.Forms.Label();
 			this.lblTotal = new System.Windows.Forms.Label();
@@ -54,6 +54,7 @@
 			this.textBox3 = new System.Windows.Forms.TextBox();
 			this.textBox4 = new System.Windows.Forms.TextBox();
 			this.lblTipValue = new System.Windows.Forms.Label();
+			this.textBox5 = new System.Windows.Forms.TextBox();
 			this.groupBox1.SuspendLayout();
 			this.groupBox2.SuspendLayout();
 			((System.ComponentModel.ISupportInitialize)(this.nudTip)).BeginInit();
@@ -147,24 +148,33 @@
 			// 
 			// groupBox2
 			// 
+			this.groupBox2.AutoSize = true;
 			this.groupBox2.Controls.Add(this.label6);
 			this.groupBox2.Controls.Add(this.textBox1);
 			this.groupBox2.Controls.Add(this.label5);
 			this.groupBox2.Controls.Add(this.comboBox1);
 			this.groupBox2.Location = new System.Drawing.Point(419, 58);
 			this.groupBox2.Name = "groupBox2";
-			this.groupBox2.Size = new System.Drawing.Size(297, 111);
+			this.groupBox2.Size = new System.Drawing.Size(297, 117);
 			this.groupBox2.TabIndex = 9;
 			this.groupBox2.TabStop = false;
 			this.groupBox2.Text = "Waiter Information";
 			// 
-			// comboBox1
+			// label6
 			// 
-			this.comboBox1.FormattingEnabled = true;
-			this.comboBox1.Location = new System.Drawing.Point(110, 72);
-			this.comboBox1.Name = "comboBox1";
-			this.comboBox1.Size = new System.Drawing.Size(121, 24);
-			this.comboBox1.TabIndex = 0;
+			this.label6.AutoSize = true;
+			this.label6.Location = new System.Drawing.Point(6, 37);
+			this.label6.Name = "label6";
+			this.label6.Size = new System.Drawing.Size(100, 17);
+			this.label6.TabIndex = 3;
+			this.label6.Text = "Table number:";
+			// 
+			// textBox1
+			// 
+			this.textBox1.Location = new System.Drawing.Point(110, 34);
+			this.textBox1.Name = "textBox1";
+			this.textBox1.Size = new System.Drawing.Size(100, 22);
+			this.textBox1.TabIndex = 2;
 			// 
 			// label5
 			// 
@@ -175,21 +185,13 @@
 			this.label5.TabIndex = 1;
 			this.label5.Text = "Waiter\'s name";
 			// 
-			// textBox1
+			// comboBox1
 			// 
-			this.textBox1.Location = new System.Drawing.Point(110, 34);
-			this.textBox1.Name = "textBox1";
-			this.textBox1.Size = new System.Drawing.Size(100, 22);
-			this.textBox1.TabIndex = 2;
-			// 
-			// label6
-			// 
-			this.label6.AutoSize = true;
-			this.label6.Location = new System.Drawing.Point(6, 37);
-			this.label6.Name = "label6";
-			this.label6.Size = new System.Drawing.Size(100, 17);
-			this.label6.TabIndex = 3;
-			this.label6.Text = "Table number:";
+			this.comboBox1.FormattingEnabled = true;
+			this.comboBox1.Location = new System.Drawing.Point(110, 72);
+			this.comboBox1.Name = "comboBox1";
+			this.comboBox1.Size = new System.Drawing.Size(121, 24);
+			this.comboBox1.TabIndex = 0;
 			// 
 			// lblSubTotal
 			// 
@@ -212,7 +214,7 @@
 			// lblTotal
 			// 
 			this.lblTotal.AutoSize = true;
-			this.lblTotal.Location = new System.Drawing.Point(460, 357);
+			this.lblTotal.Location = new System.Drawing.Point(460, 375);
 			this.lblTotal.Name = "lblTotal";
 			this.lblTotal.Size = new System.Drawing.Size(44, 17);
 			this.lblTotal.TabIndex = 11;
@@ -221,15 +223,16 @@
 			// lblRestaurantName
 			// 
 			this.lblRestaurantName.AutoSize = true;
+			this.lblRestaurantName.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.lblRestaurantName.Location = new System.Drawing.Point(329, 9);
 			this.lblRestaurantName.Name = "lblRestaurantName";
-			this.lblRestaurantName.Size = new System.Drawing.Size(142, 17);
+			this.lblRestaurantName.Size = new System.Drawing.Size(212, 25);
 			this.lblRestaurantName.TabIndex = 4;
 			this.lblRestaurantName.Text = "Roadside Restaurant";
 			// 
 			// nudTip
 			// 
-			this.nudTip.Location = new System.Drawing.Point(729, 355);
+			this.nudTip.Location = new System.Drawing.Point(647, 353);
 			this.nudTip.Name = "nudTip";
 			this.nudTip.Size = new System.Drawing.Size(42, 22);
 			this.nudTip.TabIndex = 12;
@@ -250,6 +253,7 @@
 			this.clearButton.TabIndex = 8;
 			this.clearButton.Text = "Clear Bill";
 			this.clearButton.UseVisualStyleBackColor = true;
+			this.clearButton.Click += new System.EventHandler(this.clearButton_Click_1);
 			// 
 			// totalButton
 			// 
@@ -259,6 +263,7 @@
 			this.totalButton.TabIndex = 14;
 			this.totalButton.Text = "Total Bill";
 			this.totalButton.UseVisualStyleBackColor = true;
+			this.totalButton.Click += new System.EventHandler(this.totalButton_Click);
 			// 
 			// textBox2
 			// 
@@ -276,7 +281,7 @@
 			// 
 			// textBox4
 			// 
-			this.textBox4.Location = new System.Drawing.Point(530, 351);
+			this.textBox4.Location = new System.Drawing.Point(529, 372);
 			this.textBox4.Name = "textBox4";
 			this.textBox4.Size = new System.Drawing.Size(100, 22);
 			this.textBox4.TabIndex = 17;
@@ -284,17 +289,25 @@
 			// lblTipValue
 			// 
 			this.lblTipValue.AutoSize = true;
-			this.lblTipValue.Location = new System.Drawing.Point(682, 353);
+			this.lblTipValue.Location = new System.Drawing.Point(463, 350);
 			this.lblTipValue.Name = "lblTipValue";
 			this.lblTipValue.Size = new System.Drawing.Size(32, 17);
 			this.lblTipValue.TabIndex = 18;
 			this.lblTipValue.Text = "Tip:";
+			// 
+			// textBox5
+			// 
+			this.textBox5.Location = new System.Drawing.Point(529, 347);
+			this.textBox5.Name = "textBox5";
+			this.textBox5.Size = new System.Drawing.Size(100, 22);
+			this.textBox5.TabIndex = 19;
 			// 
 			// RestaurantBillCalculatorForm
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.ClientSize = new System.Drawing.Size(816, 488);
+			this.Controls.Add(this.textBox5);
 			this.Controls.Add(this.lblTipValue);
 			this.Controls.Add(this.textBox4);
 			this.Controls.Add(this.textBox3);
@@ -350,6 +363,7 @@
 		private System.Windows.Forms.TextBox textBox3;
 		private System.Windows.Forms.TextBox textBox4;
 		private System.Windows.Forms.Label lblTipValue;
+		private System.Windows.Forms.TextBox textBox5;
 	}
 }
 

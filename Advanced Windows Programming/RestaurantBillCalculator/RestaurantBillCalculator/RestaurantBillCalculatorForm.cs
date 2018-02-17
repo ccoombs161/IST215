@@ -17,6 +17,7 @@ namespace RestaurantBillCalculator
 		private decimal tip = 0M;
 		private decimal tax = 0M;
 		private string output;
+		
 
 		private static Dictionary<string, decimal> beverages = new
 			Dictionary<string, decimal>
@@ -166,7 +167,7 @@ namespace RestaurantBillCalculator
 			lblTotal.Text = string.Format("{0:C}", (subtotal + tax + tip));
 		} // end method AddToSubtotal
 
-		private void clearButton_Click(object sender, EventArgs e)
+		private void clearButton_Click_1(object sender, EventArgs e)
 		{
 			// clear subtotal 
 			subtotal = 0M;
@@ -179,7 +180,7 @@ namespace RestaurantBillCalculator
 
 			rtxtOutput.Text = "";
 			output = "";
-		} // end method clearButton_Click
+		}
 
 		private void nudTip_ValueChanged(object sender, EventArgs e)
 		{
@@ -196,6 +197,11 @@ namespace RestaurantBillCalculator
 		private void groupBox1_Enter(object sender, EventArgs e)
 		{
 
+		}
+
+		private void totalButton_Click(object sender, EventArgs e)
+		{
+			lblTotal.Text = string.Format("{0:C}", (subtotal + tax + tip));
 		}
 	} // end class RestaurantBillCalculatorForm
 } // end namespace RestaurantBillCalculator
