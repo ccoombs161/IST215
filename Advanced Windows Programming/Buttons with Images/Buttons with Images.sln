@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2027
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Buttons with Images", "Buttons with Images\Buttons with Images.csproj", "{51F3C1AA-05EC-461E-9309-5773CB688683}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{51F3C1AA-05EC-461E-9309-5773CB688683}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51F3C1AA-05EC-461E-9309-5773CB688683}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51F3C1AA-05EC-461E-9309-5773CB688683}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51F3C1AA-05EC-461E-9309-5773CB688683}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5A1DEEDC-35E4-41F2-A2DD-C1DA9815EFA0}
+	EndGlobalSection
+EndGlobal
