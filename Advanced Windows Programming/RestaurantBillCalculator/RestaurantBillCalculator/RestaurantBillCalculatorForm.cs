@@ -201,6 +201,7 @@ namespace RestaurantBillCalculator
 
 		private void totalButton_Click(object sender, EventArgs e)
 		{
+               //lblTotal
 			lblTotal.Text = string.Format("{0:C}", (subtotal + tax + tip));
 		}
 	} // end class RestaurantBillCalculatorForm
