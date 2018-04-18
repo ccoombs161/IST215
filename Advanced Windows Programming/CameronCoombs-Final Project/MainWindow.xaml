@@ -6,7 +6,28 @@
         xmlns:local="clr-namespace:CameronCoombs_Final_Project"
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="525">
+   
     <Grid>
-        
+        <DataGrid Name="dataGrid1" />
+        <Label Content="First Name:" HorizontalAlignment="Left" Margin="64,106,0,0" VerticalAlignment="Top"/>
+        <Label Content="Last Name:" HorizontalAlignment="Right" Margin="0,103,170,0" VerticalAlignment="Top" RenderTransformOrigin="-1.824,0.506"/>
+        <Label Content="Address:" HorizontalAlignment="Left" Margin="64,148,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.427,2.38"/>
+        <Label Content="Phone:" HorizontalAlignment="Left" Margin="64,194,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.427,2.38"/>
+        <Label Content="Email:" HorizontalAlignment="Left" Margin="278,190,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.427,2.38"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="139,106,0,0" TextWrapping="Wrap" Text="First" VerticalAlignment="Top" Width="120"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="352,106,0,0" TextWrapping="Wrap" Text="Last" VerticalAlignment="Top" Width="120" RenderTransformOrigin="2.015,0.529"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="139,152,0,0" TextWrapping="Wrap" Text="Address" VerticalAlignment="Top" Width="220"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="139,194,0,0" TextWrapping="Wrap" Text="Phone#" VerticalAlignment="Top" Width="120"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="324,194,0,0" TextWrapping="Wrap" Text="Email" VerticalAlignment="Top" Width="120"/>
+        <Button Content="First" HorizontalAlignment="Left" Margin="24,24,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button Content="Last" HorizontalAlignment="Left" Margin="112,24,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button Content="Previous" HorizontalAlignment="Left" Margin="305,24,0,0" VerticalAlignment="Top" Width="75" RenderTransformOrigin="1.191,-3.554"/>
+        <Button Content="Exit" HorizontalAlignment="Left" Margin="397,64,0,0" VerticalAlignment="Top" Width="75" RenderTransformOrigin="0.392,-8.631"/>
+        <Button Content="Next" HorizontalAlignment="Left" Margin="209,24,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button Content="Connect" HorizontalAlignment="Left" Margin="305,64,0,0" VerticalAlignment="Top" Width="75" RenderTransformOrigin="1.731,1.964"/>
+        <Button Content="Create" HorizontalAlignment="Left" Margin="397,24,0,0" VerticalAlignment="Top" Width="75" RenderTransformOrigin="0.675,-7.491"/>
+
+
     </Grid>
+   
 </Window>
