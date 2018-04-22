@@ -24,5 +24,40 @@ namespace CameronCoombs_Final_Project
         {
             InitializeComponent();
         }
-    }
+
+		private void btn_Next_Click_1(object sender, RoutedEventArgs e)
+		{
+
+		}
+
+		private void btn_first_Click(object sender, RoutedEventArgs e)
+		{
+
+		}
+
+		private void btn_Last_Click(object sender, RoutedEventArgs e)
+		{
+
+		}
+
+		private void btn_Previous_Click(object sender, RoutedEventArgs e)
+		{
+
+		}
+
+		private void btn_Connect_Click(object sender, RoutedEventArgs e)
+		{
+
+		}
+
+		private void btn_Create_Click(object sender, RoutedEventArgs e)
+		{
+
+		}
+
+		private void btn_Exit_Click(object sender, RoutedEventArgs e)
+		{
+			this.Close();
+		}
+	}
 }
