@@ -5,20 +5,20 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:CameronCoombs_Final_Project"
         mc:Ignorable="d"
-        Title="Test" Height="350" Width="525">
+        Title="Acme" Height="350" Width="525">
    
     <Grid>
-        <DataGrid Name="dataGrid1" Margin="44,136,46.4,15.8" RenderTransformOrigin="0.277,0.506" />
-        <Label Content="First Name:" HorizontalAlignment="Left" Margin="64,106,0,0" VerticalAlignment="Top"/>
-        <Label Content="Last Name:" HorizontalAlignment="Right" Margin="0,103,170,0" VerticalAlignment="Top" RenderTransformOrigin="-1.824,0.506"/>
-        <Label Content="Address:" HorizontalAlignment="Left" Margin="64,148,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.427,2.38"/>
-        <Label Content="Phone:" HorizontalAlignment="Left" Margin="64,194,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.427,2.38"/>
-        <Label Content="Email:" HorizontalAlignment="Left" Margin="278,190,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.427,2.38"/>
-        <TextBox HorizontalAlignment="Left" Height="23" Margin="139,106,0,0" TextWrapping="Wrap" Text="First" VerticalAlignment="Top" Width="120"/>
-        <TextBox HorizontalAlignment="Left" Height="23" Margin="352,106,0,0" TextWrapping="Wrap" Text="Last" VerticalAlignment="Top" Width="120" RenderTransformOrigin="2.015,0.529"/>
-        <TextBox HorizontalAlignment="Left" Height="23" Margin="139,152,0,0" TextWrapping="Wrap" Text="Address" VerticalAlignment="Top" Width="220"/>
-        <TextBox HorizontalAlignment="Left" Height="23" Margin="139,194,0,0" TextWrapping="Wrap" Text="Phone#" VerticalAlignment="Top" Width="120"/>
-        <TextBox HorizontalAlignment="Left" Height="23" Margin="324,194,0,0" TextWrapping="Wrap" Text="Email" VerticalAlignment="Top" Width="120"/>
+        <DataGrid Name="dataGrid1" Margin="10,216,10.4,15.8" RenderTransformOrigin="0.277,0.506"/>
+        <Label Content="First Name:" HorizontalAlignment="Left" Margin="24,64,0,0" VerticalAlignment="Top"/>
+        <Label Content="Last Name:" HorizontalAlignment="Right" Margin="0,95,424.4,0" VerticalAlignment="Top" RenderTransformOrigin="-1.824,0.506"/>
+        <Label Content="Address:" HorizontalAlignment="Left" Margin="25,126,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.427,2.38"/>
+        <Label Content="Phone:" HorizontalAlignment="Left" Margin="25,157,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.427,2.38"/>
+        <Label Content="Email:" HorizontalAlignment="Left" Margin="30,185,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.427,2.38"/>
+        <TextBox x:Name="txtFirstName" HorizontalAlignment="Left" Height="23" Margin="100,66,0,0" TextWrapping="Wrap" Text="First" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txtLastName" HorizontalAlignment="Left" Height="23" Margin="100,97,0,0" TextWrapping="Wrap" Text="Last" VerticalAlignment="Top" Width="120" RenderTransformOrigin="2.015,0.529"/>
+        <TextBox x:Name="txtAddress" HorizontalAlignment="Left" Height="23" Margin="100,130,0,0" TextWrapping="Wrap" Text="Address" VerticalAlignment="Top" Width="220"/>
+        <TextBox x:Name="txtPhone" HorizontalAlignment="Left" Height="23" Margin="100,161,0,0" TextWrapping="Wrap" Text="Phone#" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txtEmail" HorizontalAlignment="Left" Height="23" Margin="100,193,0,0" TextWrapping="Wrap" Text="Email" VerticalAlignment="Top" Width="120"/>
         <Button x:Name="btn_first" Content="First" HorizontalAlignment="Left" Margin="24,24,0,0" VerticalAlignment="Top" Width="75" Click="btn_first_Click"/>
         <Button x:Name="btn_Last" Content="Last" HorizontalAlignment="Left" Margin="112,24,0,0" VerticalAlignment="Top" Width="75" Click="btn_Last_Click"/>
         <Button x:Name="btn_Previous" Content="Previous" HorizontalAlignment="Left" Margin="305,24,0,0" VerticalAlignment="Top" Width="75" RenderTransformOrigin="1.191,-3.554" Click="btn_Previous_Click"/>
