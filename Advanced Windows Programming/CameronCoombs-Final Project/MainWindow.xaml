@@ -5,12 +5,16 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:CameronCoombs_Final_Project"
         mc:Ignorable="d"
-        Title="Acme" Height="350" Width="525">
-   
+        Title="Acme" Height="350" Width="525" Loaded="Window_Loaded">
+
     <Grid>
-        <DataGrid Name="dataGrid1" Margin="10,216,10.4,15.8" RenderTransformOrigin="0.277,0.506"/>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="393*"/>
+            <ColumnDefinition Width="124*"/>
+        </Grid.ColumnDefinitions>
+        <DataGrid Name="dataGrid1" Margin="10,216,10,16" RenderTransformOrigin="0.277,0.506" Grid.ColumnSpan="2"/>
         <Label Content="First Name:" HorizontalAlignment="Left" Margin="29,66,0,0" VerticalAlignment="Top"/>
-        <Label Content="Last Name:" HorizontalAlignment="Right" Margin="0,92,418.4,0" VerticalAlignment="Top" RenderTransformOrigin="-1.824,0.506"/>
+        <Label Content="Last Name:" HorizontalAlignment="Right" Margin="0,92,293.733,0" VerticalAlignment="Top" RenderTransformOrigin="-1.824,0.506"/>
         <Label Content="Address:" HorizontalAlignment="Left" Margin="40,126,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.427,2.38"/>
         <Label Content="Phone:" HorizontalAlignment="Left" Margin="48,154,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.427,2.38"/>
         <Label Content="Email:" HorizontalAlignment="Left" Margin="52,184,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.427,2.38"/>
@@ -22,11 +26,11 @@
         <Button x:Name="btn_first" Content="First" HorizontalAlignment="Left" Margin="24,24,0,0" VerticalAlignment="Top" Width="75" Click="btn_first_Click"/>
         <Button x:Name="btn_Last" Content="Last" HorizontalAlignment="Left" Margin="112,24,0,0" VerticalAlignment="Top" Width="75" Click="btn_Last_Click"/>
         <Button x:Name="btn_Previous" Content="Previous" HorizontalAlignment="Left" Margin="305,24,0,0" VerticalAlignment="Top" Width="75" RenderTransformOrigin="1.191,-3.554" Click="btn_Previous_Click"/>
-        <Button x:Name="btn_Exit" Content="Exit" HorizontalAlignment="Left" Margin="397,64,0,0" VerticalAlignment="Top" Width="75" RenderTransformOrigin="0.392,-8.631" Click="btn_Exit_Click"/>
+        <Button x:Name="btn_Exit" Content="Exit" HorizontalAlignment="Left" Margin="4.267,64,0,0" VerticalAlignment="Top" Width="75" RenderTransformOrigin="0.392,-8.631" Click="btn_Exit_Click" Grid.Column="1"/>
         <Button x:Name="btn_Next" Content="Next" HorizontalAlignment="Left" Margin="209,24,0,0" VerticalAlignment="Top" Width="75" Click="btn_Next_Click_1"/>
         <Button x:Name="btn_Connect" Content="Connect" HorizontalAlignment="Left" Margin="305,64,0,0" VerticalAlignment="Top" Width="75" RenderTransformOrigin="1.731,1.964" Click="btn_Connect_Click"/>
-        <Button x:Name="btn_Create" Content="Create" HorizontalAlignment="Left" Margin="397,24,0,0" VerticalAlignment="Top" Width="75" RenderTransformOrigin="0.675,-7.491" Click="btn_Create_Click"/>
-      
+        <Button x:Name="btn_Create" Content="Create" HorizontalAlignment="Left" Margin="4.267,24,0,0" VerticalAlignment="Top" Width="75" RenderTransformOrigin="0.675,-7.491" Click="btn_Create_Click" Grid.Column="1"/>
+
     </Grid>
-   
+
 </Window>
