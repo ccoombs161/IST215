@@ -44,5 +44,10 @@ namespace Lab24_2
                          };
             dataGrid1.ItemsSource = query1.ToList();
         }
-    }
+
+		private void dataGrid1_SelectionChanged(object sender, SelectionChangedEventArgs e)
+		{
+
+		}
+	}
 }
