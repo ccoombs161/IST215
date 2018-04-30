@@ -13,10 +13,10 @@ namespace AcmeCustomerData
     using System.Data.Entity;
     using System.Data.Entity.Infrastructure;
     
-    public partial class CUSTOMER_ORDEREntities : DbContext
+    public partial class CUSTOMER_ORDEREntities2 : DbContext
     {
-        public CUSTOMER_ORDEREntities()
-            : base("name=CUSTOMER_ORDEREntities")
+        public CUSTOMER_ORDEREntities2()
+            : base("name=CUSTOMER_ORDEREntities2")
         {
         }
     

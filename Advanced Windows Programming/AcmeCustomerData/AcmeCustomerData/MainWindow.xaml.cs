@@ -20,7 +20,7 @@ namespace AcmeCustomerData
 	/// </summary>
 	public partial class MainWindow : Window
 	{
-		CUSTOMER_ORDEREntities db = new CUSTOMER_ORDEREntities();
+		CUSTOMER_ORDEREntities2 db = new CUSTOMER_ORDEREntities2();
 
 		private string address;
 		private string email;
@@ -61,7 +61,7 @@ namespace AcmeCustomerData
 
 		private void btn_first_Click(object sender, RoutedEventArgs e)
 		{
-
+			
 		}
 
 		private void btn_Last_Click(object sender, RoutedEventArgs e)

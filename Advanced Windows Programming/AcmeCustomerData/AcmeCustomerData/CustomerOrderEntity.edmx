@@ -88,7 +88,7 @@
             </Dependent>
           </ReferentialConstraint>
         </Association>
-        <EntityContainer Name="CUSTOMER_ORDEREntities" annotation:LazyLoadingEnabled="true">
+        <EntityContainer Name="CUSTOMER_ORDEREntities2" annotation:LazyLoadingEnabled="true">
           <EntitySet Name="CUSTOMERs" EntityType="Self.CUSTOMER" />
           <EntitySet Name="ORDERs" EntityType="Self.ORDER" />
           <AssociationSet Name="CUSTOMER_ORDER_FK" Association="Self.CUSTOMER_ORDER_FK">
@@ -101,7 +101,7 @@
     <!-- C-S mapping content -->
     <edmx:Mappings>
       <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
-        <EntityContainerMapping StorageEntityContainer="CUSTOMER_ORDERModelStoreContainer" CdmEntityContainer="CUSTOMER_ORDEREntities">
+        <EntityContainerMapping StorageEntityContainer="CUSTOMER_ORDERModelStoreContainer" CdmEntityContainer="CUSTOMER_ORDEREntities2">
           <EntitySetMapping Name="CUSTOMERs">
             <EntityTypeMapping TypeName="CUSTOMER_ORDERModel.CUSTOMER">
               <MappingFragment StoreEntitySet="CUSTOMER">
