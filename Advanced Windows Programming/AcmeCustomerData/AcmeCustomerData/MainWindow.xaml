@@ -10,29 +10,32 @@
 
     <Grid>
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="394*"/>
-            <ColumnDefinition Width="82*"/>
-            <ColumnDefinition Width="43*"/>
+            <ColumnDefinition Width="145*"/>
+            <ColumnDefinition Width="0*"/>
+            <ColumnDefinition Width="13*"/>
         </Grid.ColumnDefinitions>
         <DataGrid Name="dataGrid1" Margin="10,161,10,15.8" RenderTransformOrigin="0.277,0.506" Grid.ColumnSpan="3"/>
-        <Label Content="First Name:" HorizontalAlignment="Left" Margin="29,66,0,0" VerticalAlignment="Top" Height="26" Width="70"/>
-        <Label Content="Last Name:" HorizontalAlignment="Right" Margin="0,95,381,0" VerticalAlignment="Top" RenderTransformOrigin="-1.824,0.506" Height="26" Width="69"/>
-        <Label Content="Address:" HorizontalAlignment="Left" Margin="40,126,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.427,2.38" Height="26" Width="54"/>
-        <Label Content="Phone:" HorizontalAlignment="Left" Margin="253,92,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.427,2.38" Height="25" Width="46"/>
-        <Label Content="Email:" HorizontalAlignment="Left" Margin="338,130,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.427,2.38" Height="26" Width="42"/>
-        <TextBox x:Name="txtFirstName" HorizontalAlignment="Left" Height="23" Margin="100,66,0,0" TextWrapping="Wrap" Text="First" VerticalAlignment="Top" Width="120"/>
-        <TextBox x:Name="txtLastName" HorizontalAlignment="Left" Height="23" Margin="100,92,0,0" TextWrapping="Wrap" Text="Last" VerticalAlignment="Top" Width="120" RenderTransformOrigin="2.015,0.529"/>
-        <TextBox x:Name="txtAddress" HorizontalAlignment="Left" Height="23" Margin="100,130,0,0" TextWrapping="Wrap" Text="Address" VerticalAlignment="Top" Width="220"/>
-        <TextBox x:Name="txtPhone" HorizontalAlignment="Left" Height="23" Margin="318,92,0,0" TextWrapping="Wrap" Text="Phone#" VerticalAlignment="Top" Width="120" Grid.ColumnSpan="2"/>
-        <TextBox x:Name="txtEmail" HorizontalAlignment="Left" Height="23" Margin="380,133,0,0" TextWrapping="Wrap" Text="Email" VerticalAlignment="Top" Width="120" Grid.ColumnSpan="3"/>
+        <Label Content="Customer Name:" HorizontalAlignment="Left" Margin="29,66,0,0" VerticalAlignment="Top" Height="26" Width="102" FontWeight="Bold"/>
+        <Label Content="State:" HorizontalAlignment="Right" Margin="0,90,427,0" VerticalAlignment="Top" RenderTransformOrigin="-1.824,0.506" Height="26" Width="69" FontWeight="Bold"/>
+        <Label Content="City:" HorizontalAlignment="Left" Margin="84,114,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.427,2.38" Height="26" Width="54" FontWeight="Bold"/>
+        <Label Content="Order #:" HorizontalAlignment="Left" Margin="271,66,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.427,2.38" Height="25" Width="65" FontWeight="Bold"/>
+        <Label Content="Product #:" HorizontalAlignment="Left" Margin="271,88,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.427,2.38" Height="26" Width="74" FontWeight="Bold"/>
+        <Label Content="Product Type:" HorizontalAlignment="Left" Margin="271,114,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.427,2.38" Height="26" Width="99" FontWeight="Bold"/>
+
+        <TextBox x:Name="txtCustName" HorizontalAlignment="Left" Height="23" Margin="136,66,0,0" TextWrapping="Wrap" Text="Customer Name" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txtstate" HorizontalAlignment="Left" Height="23" Margin="136,94,0,0" TextWrapping="Wrap" Text="State " VerticalAlignment="Top" Width="120" RenderTransformOrigin="2.015,0.529"/>
+        <TextBox x:Name="txtcity" HorizontalAlignment="Left" Height="23" Margin="136,120,0,0" TextWrapping="Wrap" Text="City" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txtordernum" HorizontalAlignment="Left" Height="23" Margin="375,66,0,0" TextWrapping="Wrap" Text="Order#" VerticalAlignment="Top" Width="120" RenderTransformOrigin="0.708,0.448"/>
+        <TextBox x:Name="txtproductnum" HorizontalAlignment="Left" Height="23" Margin="375,94,0,0" TextWrapping="Wrap" Text="Product#" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txtproducttype" HorizontalAlignment="Left" Height="23" Margin="375,122,0,0" TextWrapping="Wrap" Text="Product type" VerticalAlignment="Top" Width="120"/>
+
         <Button x:Name="btn_first" Content="First" HorizontalAlignment="Left" Margin="24,24,0,0" VerticalAlignment="Top" Width="75" Click="btn_first_Click" Height="19"/>
         <Button x:Name="btn_Last" Content="Last" HorizontalAlignment="Left" Margin="112,24,0,0" VerticalAlignment="Top" Width="75" Click="btn_Last_Click" Height="19"/>
         <Button x:Name="btn_Previous" Content="Previous" HorizontalAlignment="Left" Margin="305,24,0,0" VerticalAlignment="Top" Width="75" RenderTransformOrigin="1.191,-3.554" Click="btn_Previous_Click" Height="19"/>
-        <Button x:Name="btn_Exit" Content="Exit" HorizontalAlignment="Left" Margin="395,64,0,0" VerticalAlignment="Top" Width="75" RenderTransformOrigin="0.392,-8.631" Click="btn_Exit_Click" Height="19"/>
+        <Button x:Name="btn_Exit" Content="Exit" HorizontalAlignment="Left" Margin="495,24,0,0" VerticalAlignment="Top" Width="75" RenderTransformOrigin="0.392,-8.631" Click="btn_Exit_Click" Height="19"/>
         <Button x:Name="btn_Next" Content="Next" HorizontalAlignment="Left" Margin="209,24,0,0" VerticalAlignment="Top" Width="75" Click="btn_Next_Click_1" Height="19"/>
-        <Button x:Name="btn_Connect" Content="Connect" HorizontalAlignment="Left" Margin="305,64,0,0" VerticalAlignment="Top" Width="75" RenderTransformOrigin="1.731,1.964" Click="btn_Connect_Click" Height="19"/>
         <Button x:Name="btn_Create" Content="Create" HorizontalAlignment="Left" Margin="395,24,0,0" VerticalAlignment="Top" Width="75" RenderTransformOrigin="0.675,-7.491" Click="btn_Create_Click" Height="19"/>
-        
+
 
 
     </Grid>
